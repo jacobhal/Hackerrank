@@ -18,7 +18,6 @@ def minimumSwaps(arr):
     sortedArr.sort()
     swapCounter = 0
 
-
     while sortedArr != arr:
         for i, e in enumerate(arr):
             if e != sortedArr[i]:
